@@ -52,7 +52,7 @@ The script will process each PDF, extract the required financial entities, and s
 Expected Output Format
 The JSON output file will have a structure similar to:
 
-
+```
 {
     "1_FinancialResults_05022025142214.pdf": {
         "company_name": "Eveready Industries India Ltd.",
@@ -73,6 +73,7 @@ The JSON output file will have a structure similar to:
         }
     }
 }
+```
 Note: The actual extracted values depend on the content and formatting of your PDFs.
 
 Extensibility
